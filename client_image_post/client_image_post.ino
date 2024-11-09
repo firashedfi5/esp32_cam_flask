@@ -15,8 +15,8 @@
 #include "soc/rtc_cntl_reg.h"
 #include "esp_camera.h"
 
-const char* ssid = "ssid";
-const char* password = "password";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 String serverName = "192.168.1.22";   
 //String serverName = "example.com";   
