@@ -12,7 +12,7 @@ app.secret_key = 'sdfhj43uop23opjuhjg234jghds8'
 counter = Value('i', 0)
 
 # Directory to save images
-img_dir = 'C:\\Users\\firas\\OneDrive\\Desktop\\Projet_Tutore_3eme\\Code\\esp32_cam_flask\\flask_app\\esp32_imgs'
+img_dir = 'directory_path'
 if not os.path.isdir(img_dir):
     os.mkdir(img_dir)
 
